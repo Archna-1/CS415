@@ -2454,3 +2454,843 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.01.27-23.03.34:731][377]AssetCheck: New page: Asset Save: multiple assets
 [2023.01.27-23.03.34:731][377]LogContentValidation: Display: Validating /Script/Engine.World /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap
 [2023.01.27-23.03.34:731][377]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap_BuiltData
+[2023.01.27-23.06.27:584][379]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player
+[2023.01.27-23.06.27:585][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.06.33:350][957]Cmd: TRANSACTION UNDO
+[2023.01.27-23.06.33:350][957]LogEditorTransaction: Undo Add New Function
+[2023.01.27-23.09.48:699][745]BlueprintLog: New page: Compile BP_Player
+[2023.01.27-23.09.48:818][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.01.27-23.10.44:558][ 50]BlueprintLog: New page: Compile BP_Player
+[2023.01.27-23.10.44:669][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.27-23.13.33:088][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.27-23.13.33:094][753]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteMatrix/Maps/TutorialMap' took 0.073
+[2023.01.27-23.13.33:096][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Player] ([2] browsable assets)...
+[2023.01.27-23.13.33:096][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Player]
+[2023.01.27-23.13.34:687][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto3
+[2023.01.27-23.13.34:702][753]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Player_Auto3D67B9184477D4593A5F927B517E06936.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto3.uasset'
+[2023.01.27-23.13.34:746][753]LogFileHelpers: Auto-saving content packages took 1.652
+[2023.01.27-23.17.29:811][958]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.27-23.17.29:820][958]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.01.27-23.17.29:830][958]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.01.27-23.17.29:837][959]LogAutomationController: Ignoring very large delta of 7.59 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.27-23.17.29:852][959]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.01.27-23.17.32:574][241]LogContentBrowser: Attempting asset rename: NewBlueprint -> Bullet
+[2023.01.27-23.17.32:583][241]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.01.27-23.17.34:973][472]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/Bullet.Bullet
+[2023.01.27-23.17.34:974][472]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.17.35:588][472]LogViewport: Scene viewport resized to 988x747, mode Windowed.
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: ================================================
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Total job queries 120, among them cache hits 4 (3.33%)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Tracking 113 distinct input hashes that result in 59 distinct outputs (52.21%)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: RAM used: 0.23 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Shaders Compiled: 113
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Jobs assigned 116, completed 113 (97.41%)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Average time worker was idle: 117.07 s
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Time job spent in pending queue: average 1.25 s, longest 6.13 s
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Job execution time: average 0.83 s, max 1.55 s
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Job life time (pending + execution): average 2.11 s, max 7.05
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 29.62 s
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Jobs were issued in 116 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Average processing rate: 3.82 jobs/sec
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Total thread time: 69.47 s
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Total thread preprocess time: 6.11 s
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Percentage time preprocessing: 8.79%
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Effective parallelization: 2.35 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.99 sec, max 0.99 sec, min 0.99 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   28 times, average 0.81 sec, max 1.01 sec, min 0.61 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   28 times, average 0.80 sec, max 0.94 sec, min 0.61 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.62 sec, max 0.63 sec, min 0.61 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 32.80% of total time (compiled   28 times, average 0.81 sec, max 1.01 sec, min 0.61 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.32% of total time (compiled   28 times, average 0.80 sec, max 0.94 sec, min 0.61 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.50% of total time (compiled   20 times, average 0.57 sec, max 0.64 sec, min 0.48 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.94% of total time (compiled   21 times, average 0.36 sec, max 0.43 sec, min 0.29 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 1.79% of total time (compiled    2 times, average 0.62 sec, max 0.63 sec, min 0.61 sec)
+[2023.01.27-23.17.47:338][752]LogShaderCompilers: Display: ================================================
+[2023.01.27-23.18.08:076][688]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Engine/BasicShapes/BasicShapeMaterial_Inst.BasicShapeMaterial_Inst
+[2023.01.27-23.18.08:078][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.18.08:343][688]LogViewport: Scene viewport resized to 1156x772, mode Windowed.
+[2023.01.27-23.18.12:724][175]LogAssetEditorSubsystem: Opening Asset editor for Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2023.01.27-23.18.12:728][175]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.18.13:000][175]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.18.13:000][175]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.18.13:000][175]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.18.13:006][175]LogViewport: Scene viewport resized to 325x384, mode Windowed.
+[2023.01.27-23.18.13:057][177]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.18.13:057][177]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.18.13:057][177]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.18.13:057][177]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.18.13:057][177]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.18.20:050][952]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.18.20:050][952]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.18.20:050][952]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.18.20:078][954]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.18.20:078][954]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.18.20:078][954]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.18.20:078][954]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.18.20:078][954]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.18.21:027][ 59]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.27-23.18.21:033][ 59]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.18.21:033][ 59]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.18.21:033][ 59]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.18.21:060][ 61]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.18.21:060][ 61]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.18.21:060][ 61]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.18.21:060][ 61]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.18.21:060][ 61]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.18.25:631][560]BlueprintLog: New page: Compile Bullet
+[2023.01.27-23.18.25:735][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.01.27-23.18.28:226][807]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.18.28:226][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.18.31:314][840]LogSlate: Window 'Message' being destroyed
+[2023.01.27-23.18.31:317][840]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+(Selecting 'No' will cause all changes to be lost!)
+[2023.01.27-23.18.31:966][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.27-23.18.32:782][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.27-23.18.32:872][840]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.18.32:873][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.18.32:967][841]LogAutomationController: Ignoring very large delta of 4.42 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.27-23.20.27:259][600]LogContentBrowser: Attempting asset rename: Bullet -> BP_Bullet
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.SKEL_BP_Bullet_C' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet_C' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet:EventGraph.K2Node_Event_0' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet:EventGraph.K2Node_Event_1' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet:EventGraph.K2Node_Event_2' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.SKEL_BP_Bullet_C:ReceiveBeginPlay' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.SKEL_BP_Bullet_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.SKEL_BP_Bullet_C:ReceiveTick' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:295][600]LogMetaData: Removing '/Game/InfiniteMatrix/Blueprints/BP_Bullet.SKEL_BP_Bullet_C:UserConstructionScript' ref from Metadata '/Game/InfiniteMatrix/Blueprints/Bullet.PackageMetaData'
+[2023.01.27-23.20.27:297][600]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.27-23.20.27:345][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Bullet" FILE="U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Bullet.uasset" SILENT=true
+[2023.01.27-23.20.27:617][600]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_Bullet
+[2023.01.27-23.20.27:617][600]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Bullet93ACAF3E459D9AE5663632AAEC14E97E.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Bullet.uasset'
+[2023.01.27-23.20.27:638][600]LogFileHelpers: InternalPromptForCheckoutAndSave took 341 ms (total: 6.12 sec)
+[2023.01.27-23.20.27:740][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.27-23.20.27:814][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.27-23.20.27:884][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.01.27-23.20.27:892][600]AssetCheck: New page: Asset Save: BP_Bullet
+[2023.01.27-23.20.27:892][600]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet
+[2023.01.27-23.20.32:446][846]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.27-23.20.32:453][846]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.01.27-23.20.32:462][846]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.01.27-23.20.32:466][847]LogAutomationController: Ignoring very large delta of 2.08 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.27-23.20.32:484][847]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.01.27-23.20.37:068][392]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Enemy
+[2023.01.27-23.20.37:083][392]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.01.27-23.23.02:601][101]BlueprintLog: New page: Compile BP_Bullet
+[2023.01.27-23.23.02:706][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.01.27-23.24.07:884][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.01.27-23.24.07:890][468]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteMatrix/Maps/TutorialMap' took 0.077
+[2023.01.27-23.24.07:893][468]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Player] ([2] browsable assets)...
+[2023.01.27-23.24.07:893][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Player]
+[2023.01.27-23.24.09:496][468]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto4
+[2023.01.27-23.24.09:511][468]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Player_Auto40B3E71E94522E0B82F92BEAFD75D2626.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto4.uasset'
+[2023.01.27-23.24.09:555][468]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/BasicShapes/BasicShapeMaterial] ([1] browsable assets)...
+[2023.01.27-23.24.11:695][468]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.01.27-23.24.23:775][468]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049968s
+[2023.01.27-23.24.29:664][468]LogDerivedDataCache: C:/Users/archnas2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.123 and deleted 0 files with total size 0 MiB. Scanned 509 files in 509 folders with total size 149 MiB.
+[2023.01.27-23.24.35:727][468]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000091s (11.996959s overbudget)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: ================================================
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Total job queries 223, among them cache hits 36 (16.14%)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Tracking 187 distinct input hashes that result in 102 distinct outputs (54.55%)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: RAM used: 0.45 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.03%
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Shaders Compiled: 187
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Jobs assigned 187, completed 187 (100.00%)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Average time worker was idle: 79.99 s
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Time job spent in pending queue: average 6.60 s, longest 25.22 s
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Job execution time: average 1.09 s, max 12.44 s
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Job life time (pending + execution): average 7.69 s, max 26.03
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 57.92 s
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Jobs were issued in 187 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Average processing rate: 3.23 jobs/sec
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Total thread time: 124.90 s
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Total thread preprocess time: 10.26 s
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Percentage time preprocessing: 8.21%
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Effective parallelization: 2.16 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 0.92 sec, max 0.99 sec, min 0.84 sec)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 0.90 sec, max 0.91 sec, min 0.89 sec)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.89 sec, max 0.93 sec, min 0.86 sec)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.85 sec, max 0.88 sec, min 0.83 sec)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 0.84 sec, max 0.87 sec, min 0.83 sec)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.54% of total time (compiled   32 times, average 0.80 sec, max 1.01 sec, min 0.61 sec)
+[2023.01.27-23.24.35:735][468]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.42% of total time (compiled   32 times, average 0.80 sec, max 0.94 sec, min 0.61 sec)
+[2023.01.27-23.24.35:736][468]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.54% of total time (compiled   23 times, average 0.57 sec, max 0.66 sec, min 0.48 sec)
+[2023.01.27-23.24.35:736][468]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.57% of total time (compiled   23 times, average 0.36 sec, max 0.43 sec, min 0.29 sec)
+[2023.01.27-23.24.35:736][468]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 2.21% of total time (compiled    3 times, average 0.92 sec, max 0.99 sec, min 0.84 sec)
+[2023.01.27-23.24.35:736][468]LogShaderCompilers: Display: ================================================
+[2023.01.27-23.24.35:750][468]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial]
+[2023.01.27-23.24.35:750][468]OBJ SavePackage: Finished generating thumbnails for package [/Engine/BasicShapes/BasicShapeMaterial]
+[2023.01.27-23.24.35:881][468]LogSavePackage: Moving output files for package: /Temp/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto4
+[2023.01.27-23.24.35:882][468]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BasicShapeMaterial_Auto47832C48347A056462BC2138988F9418D.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto4.uasset'
+[2023.01.27-23.24.35:898][468]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Bullet] ([2] browsable assets)...
+[2023.01.27-23.24.35:914][468]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet]
+[2023.01.27-23.24.35:914][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Bullet]
+[2023.01.27-23.24.36:274][468]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Bullet_Auto4
+[2023.01.27-23.24.36:294][468]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Bullet_Auto4A54A72E04287AED72357E193A782503E.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Bullet_Auto4.uasset'
+[2023.01.27-23.24.36:313][468]LogFileHelpers: Auto-saving content packages took 28.422
+[2023.01.27-23.24.36:349][469]LogAutomationController: Ignoring very large delta of 28.68 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.27-23.26.19:349][300]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.27-23.26.19:349][300]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.27-23.26.19:349][300]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.27-23.26.36:812][277]BlueprintLog: New page: Compile BP_Player
+[2023.01.27-23.26.36:828][277]LogBlueprint: Error: [AssetLog] U:\CS415\InfiniteMatrixStarter 5.1\Content\InfiniteMatrix\Blueprints\BP_Player.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.01.27-23.26.36:828][277]LogBlueprint: Error: [AssetLog] U:\CS415\InfiniteMatrixStarter 5.1\Content\InfiniteMatrix\Blueprints\BP_Player.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.01.27-23.26.36:944][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.01.27-23.28.58:902][822]BlueprintLog: New page: Compile BP_Bullet
+[2023.01.27-23.28.59:031][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.27-23.29.48:765][565]BlueprintLog: New page: Compile BP_Player
+[2023.01.27-23.29.48:799][565]LogBlueprint: Error: [AssetLog] U:\CS415\InfiniteMatrixStarter 5.1\Content\InfiniteMatrix\Blueprints\BP_Player.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.01.27-23.29.48:800][565]LogBlueprint: Error: [AssetLog] U:\CS415\InfiniteMatrixStarter 5.1\Content\InfiniteMatrix\Blueprints\BP_Player.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.01.27-23.29.48:918][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.01.27-23.30.47:101][ 77]BlueprintLog: New page: Compile BP_Player
+[2023.01.27-23.30.47:127][ 77]LogBlueprint: Error: [AssetLog] U:\CS415\InfiniteMatrixStarter 5.1\Content\InfiniteMatrix\Blueprints\BP_Player.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.01.27-23.30.47:128][ 77]LogBlueprint: Error: [AssetLog] U:\CS415\InfiniteMatrixStarter 5.1\Content\InfiniteMatrix\Blueprints\BP_Player.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.01.27-23.30.47:245][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.01.27-23.34.36:286][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.27-23.34.36:292][ 86]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteMatrix/Maps/TutorialMap' took 0.087
+[2023.01.27-23.34.36:294][ 86]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Player] ([2] browsable assets)...
+[2023.01.27-23.34.36:294][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Player]
+[2023.01.27-23.34.37:949][ 86]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto5
+[2023.01.27-23.34.37:964][ 86]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Player_Auto5CE91B16C45978E4FF4ECB0AEBC8A4E26.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto5.uasset'
+[2023.01.27-23.34.38:007][ 86]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Bullet] ([2] browsable assets)...
+[2023.01.27-23.34.38:020][ 86]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet]
+[2023.01.27-23.34.38:020][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Bullet]
+[2023.01.27-23.34.38:469][ 86]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Bullet_Auto5
+[2023.01.27-23.34.38:469][ 86]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Bullet_Auto56A5181304F05929613086DB007EC34C1.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Bullet_Auto5.uasset'
+[2023.01.27-23.34.38:486][ 86]LogFileHelpers: Auto-saving content packages took 2.193
+[2023.01.27-23.34.38:519][ 87]LogAutomationController: Ignoring very large delta of 2.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.27-23.40.33:335][415]BlueprintLog: New page: Compile BP_Player
+[2023.01.27-23.40.33:479][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.01.27-23.40.37:396][851]BlueprintLog: New page: Compile BP_Bullet
+[2023.01.27-23.40.37:521][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.01.27-23.40.41:876][364]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.01.27-23.40.41:925][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.27-23.40.41:925][364]PIE: New page: PIE session: TutorialMap (Jan 27, 2023, 11:40:41 AM)
+[2023.01.27-23.40.41:925][364]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.40.41:927][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002053s)
+[2023.01.27-23.40.41:927][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.002088s)
+[2023.01.27-23.40.41:928][364]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.40.41:928][364]LogAIModule: Creating AISystem for world TutorialMap
+[2023.01.27-23.40.41:928][364]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2023.01.27-23.40.41:999][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.01.27-23.40.42:002][364]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.01.27-23.40.42:002][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.27-23.40.42:002][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.27-23.40.42:002][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.27-23.40.42:002][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.27-23.40.42:002][364]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.27-23.40.42:002][364]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.27-23.40.42:002][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.27-23.40.42:002][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.27-23.40.42:003][364]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.27-23.40.42:003][364]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.27-23.40.42:003][364]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.27-23.40.42:006][364]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.27-23.40.42:120][364]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.01.27-23.40.42:121][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.27-23.40.42:121][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.27-23.40.42:121][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.27-23.40.42:121][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.01.27-23.40.42:121][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.01.27-23.40.42:123][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.01.27-23.40.42:123][364]LogInit: FAudioDevice initialized.
+[2023.01.27-23.40.42:123][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.01.27-23.40.42:123][364]LogAudio: Display: Audio Device (ID: 13) registered with world 'TutorialMap'.
+[2023.01.27-23.40.42:150][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.40.42:150][364]LogLoad: Game class is 'GM_Tutorial_C'
+[2023.01.27-23.40.42:151][364]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2023.01.27-17.40.42
+[2023.01.27-23.40.42:151][364]LogWorld: Bringing up level for play took: 0.000652
+[2023.01.27-23.40.42:154][364]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.01.27-23.40.42:163][364]PIE: Server logged in
+[2023.01.27-23.40.42:165][364]PIE: Play in editor total start time 0.24 seconds.
+[2023.01.27-23.40.42:180][364]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.01.27-23.41.48:689][ 70]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.01.27-23.41.48:689][ 70]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.01.27-23.41.50:222][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.41.50:222][205]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.41.50:223][205]LogSlate: Window 'InfiniteMatrix Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.01.27-23.41.50:227][205]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.41.50:227][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.41.50:231][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.27-23.41.50:237][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.41.50:309][205]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.01.27-23.41.50:311][205]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.01.27-23.41.50:321][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.27-23.41.50:371][206]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.01.27-23.42.19:955][335]BlueprintLog: New page: Compile BP_Bullet
+[2023.01.27-23.42.20:056][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.27-23.42.22:069][518]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.01.27-23.42.22:111][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.27-23.42.22:111][518]PIE: New page: PIE session: TutorialMap (Jan 27, 2023, 11:42:22 AM)
+[2023.01.27-23.42.22:111][518]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.42.22:115][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003593s)
+[2023.01.27-23.42.22:115][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003626s)
+[2023.01.27-23.42.22:115][518]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.42.22:115][518]LogAIModule: Creating AISystem for world TutorialMap
+[2023.01.27-23.42.22:116][518]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2023.01.27-23.42.22:187][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.27-23.42.22:190][518]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.01.27-23.42.22:190][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.27-23.42.22:191][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.27-23.42.22:191][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.27-23.42.22:191][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.27-23.42.22:191][518]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.27-23.42.22:191][518]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.27-23.42.22:191][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.27-23.42.22:191][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.27-23.42.22:191][518]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.27-23.42.22:191][518]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.27-23.42.22:191][518]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.27-23.42.22:194][518]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.27-23.42.22:300][518]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.01.27-23.42.22:301][518]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.27-23.42.22:301][518]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.27-23.42.22:301][518]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.27-23.42.22:301][518]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.01.27-23.42.22:301][518]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.01.27-23.42.22:304][518]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.01.27-23.42.22:304][518]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.01.27-23.42.22:304][518]LogInit: FAudioDevice initialized.
+[2023.01.27-23.42.22:304][518]LogAudio: Display: Audio Device (ID: 14) registered with world 'TutorialMap'.
+[2023.01.27-23.42.22:324][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.42.22:325][518]LogLoad: Game class is 'GM_Tutorial_C'
+[2023.01.27-23.42.22:325][518]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2023.01.27-17.42.22
+[2023.01.27-23.42.22:326][518]LogWorld: Bringing up level for play took: 0.000692
+[2023.01.27-23.42.22:328][518]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.01.27-23.42.22:337][518]PIE: Server logged in
+[2023.01.27-23.42.22:340][518]PIE: Play in editor total start time 0.229 seconds.
+[2023.01.27-23.42.22:362][518]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.01.27-23.42.34:962][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.42.34:962][545]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.42.34:962][545]LogSlate: Window 'InfiniteMatrix Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.01.27-23.42.34:966][545]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.42.34:967][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.42.34:969][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.27-23.42.34:976][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.42.35:047][545]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.27-23.42.35:048][545]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.01.27-23.42.35:050][545]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.01.27-23.42.35:059][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.01.27-23.42.35:116][546]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.01.27-23.42.56:917][980]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.01.27-23.42.56:960][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.27-23.42.56:960][980]PIE: New page: PIE session: TutorialMap (Jan 27, 2023, 11:42:56 AM)
+[2023.01.27-23.42.56:960][980]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.42.56:963][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003424s)
+[2023.01.27-23.42.56:963][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003456s)
+[2023.01.27-23.42.56:963][980]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.42.56:963][980]LogAIModule: Creating AISystem for world TutorialMap
+[2023.01.27-23.42.56:963][980]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2023.01.27-23.42.57:035][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.27-23.42.57:038][980]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.01.27-23.42.57:038][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.27-23.42.57:038][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.27-23.42.57:038][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.27-23.42.57:038][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.27-23.42.57:038][980]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.27-23.42.57:038][980]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.27-23.42.57:038][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.27-23.42.57:038][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.27-23.42.57:039][980]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.27-23.42.57:039][980]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.27-23.42.57:039][980]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.27-23.42.57:042][980]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.27-23.42.57:148][980]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.01.27-23.42.57:148][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.27-23.42.57:148][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.27-23.42.57:148][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.27-23.42.57:148][980]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.01.27-23.42.57:148][980]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.01.27-23.42.57:151][980]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.01.27-23.42.57:151][980]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.01.27-23.42.57:151][980]LogInit: FAudioDevice initialized.
+[2023.01.27-23.42.57:151][980]LogAudio: Display: Audio Device (ID: 15) registered with world 'TutorialMap'.
+[2023.01.27-23.42.57:175][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.42.57:175][980]LogLoad: Game class is 'GM_Tutorial_C'
+[2023.01.27-23.42.57:176][980]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2023.01.27-17.42.57
+[2023.01.27-23.42.57:176][980]LogWorld: Bringing up level for play took: 0.000663
+[2023.01.27-23.42.57:179][980]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.01.27-23.42.57:188][980]PIE: Server logged in
+[2023.01.27-23.42.57:192][980]PIE: Play in editor total start time 0.233 seconds.
+[2023.01.27-23.42.57:209][980]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.01.27-23.43.09:243][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.43.09:243][932]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.43.09:243][932]LogSlate: Window 'InfiniteMatrix Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.01.27-23.43.09:247][932]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.43.09:247][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.43.09:250][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.27-23.43.09:257][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.43.09:329][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.01.27-23.43.09:331][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.01.27-23.43.09:340][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.01.27-23.43.09:398][933]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.01.27-23.43.27:791][832]BlueprintLog: New page: Compile BP_Player
+[2023.01.27-23.43.27:953][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.01.27-23.43.50:320][951]BlueprintLog: New page: Compile BP_Bullet
+[2023.01.27-23.43.50:453][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.01.27-23.43.54:797][364]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.01.27-23.43.54:839][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.27-23.43.54:839][364]PIE: New page: PIE session: TutorialMap (Jan 27, 2023, 11:43:54 AM)
+[2023.01.27-23.43.54:839][364]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.43.54:844][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004255s)
+[2023.01.27-23.43.54:844][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.004298s)
+[2023.01.27-23.43.54:844][364]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.43.54:844][364]LogAIModule: Creating AISystem for world TutorialMap
+[2023.01.27-23.43.54:844][364]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2023.01.27-23.43.54:917][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.27-23.43.54:921][364]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.01.27-23.43.54:921][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.27-23.43.54:921][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.27-23.43.54:921][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.27-23.43.54:921][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.27-23.43.54:921][364]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.27-23.43.54:921][364]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.27-23.43.54:921][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.27-23.43.54:921][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.27-23.43.54:922][364]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.27-23.43.54:922][364]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.27-23.43.54:922][364]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.27-23.43.54:924][364]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.27-23.43.55:026][364]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.01.27-23.43.55:027][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.27-23.43.55:027][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.27-23.43.55:027][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.27-23.43.55:027][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.01.27-23.43.55:027][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.01.27-23.43.55:029][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.01.27-23.43.55:029][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.01.27-23.43.55:029][364]LogInit: FAudioDevice initialized.
+[2023.01.27-23.43.55:029][364]LogAudio: Display: Audio Device (ID: 16) registered with world 'TutorialMap'.
+[2023.01.27-23.43.55:051][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.43.55:051][364]LogLoad: Game class is 'GM_Tutorial_C'
+[2023.01.27-23.43.55:052][364]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2023.01.27-17.43.55
+[2023.01.27-23.43.55:052][364]LogWorld: Bringing up level for play took: 0.000666
+[2023.01.27-23.43.55:055][364]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.01.27-23.43.55:065][364]PIE: Server logged in
+[2023.01.27-23.43.55:069][364]PIE: Play in editor total start time 0.23 seconds.
+[2023.01.27-23.43.55:087][364]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.01.27-23.44.06:271][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.44.06:271][172]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.44.06:272][172]LogSlate: Window 'InfiniteMatrix Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.01.27-23.44.06:277][172]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.44.06:278][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.44.06:280][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.27-23.44.06:286][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.44.06:358][172]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.27-23.44.06:359][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.01.27-23.44.06:360][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.01.27-23.44.06:370][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.01.27-23.44.06:444][173]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.01.27-23.44.15:020][992]BlueprintLog: New page: Compile BP_Bullet
+[2023.01.27-23.44.15:146][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.01.27-23.44.15:982][ 59]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.01.27-23.44.16:023][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.27-23.44.16:023][ 59]PIE: New page: PIE session: TutorialMap (Jan 27, 2023, 11:44:16 AM)
+[2023.01.27-23.44.16:023][ 59]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.44.16:026][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003552s)
+[2023.01.27-23.44.16:026][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003583s)
+[2023.01.27-23.44.16:026][ 59]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.44.16:027][ 59]LogAIModule: Creating AISystem for world TutorialMap
+[2023.01.27-23.44.16:027][ 59]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2023.01.27-23.44.16:098][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.01.27-23.44.16:102][ 59]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.01.27-23.44.16:102][ 59]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.27-23.44.16:102][ 59]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.27-23.44.16:102][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.27-23.44.16:102][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.27-23.44.16:102][ 59]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.27-23.44.16:102][ 59]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.27-23.44.16:102][ 59]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.27-23.44.16:102][ 59]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.27-23.44.16:103][ 59]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.27-23.44.16:103][ 59]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.27-23.44.16:103][ 59]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.27-23.44.16:105][ 59]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.27-23.44.16:206][ 59]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.01.27-23.44.16:207][ 59]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.27-23.44.16:207][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.27-23.44.16:207][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.27-23.44.16:207][ 59]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.01.27-23.44.16:207][ 59]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.01.27-23.44.16:209][ 59]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.01.27-23.44.16:209][ 59]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.01.27-23.44.16:209][ 59]LogInit: FAudioDevice initialized.
+[2023.01.27-23.44.16:209][ 59]LogAudio: Display: Audio Device (ID: 17) registered with world 'TutorialMap'.
+[2023.01.27-23.44.16:233][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.44.16:233][ 59]LogLoad: Game class is 'GM_Tutorial_C'
+[2023.01.27-23.44.16:234][ 59]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2023.01.27-17.44.16
+[2023.01.27-23.44.16:234][ 59]LogWorld: Bringing up level for play took: 0.000644
+[2023.01.27-23.44.16:237][ 59]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.01.27-23.44.16:245][ 59]PIE: Server logged in
+[2023.01.27-23.44.16:249][ 59]PIE: Play in editor total start time 0.227 seconds.
+[2023.01.27-23.44.16:269][ 59]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.01.27-23.44.25:232][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.44.25:232][675]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.44.25:232][675]LogSlate: Window 'InfiniteMatrix Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.01.27-23.44.25:237][675]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.44.25:238][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.44.25:241][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.27-23.44.25:247][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.44.25:318][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.01.27-23.44.25:320][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.01.27-23.44.25:329][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.01.27-23.44.25:391][676]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.01.27-23.46.32:780][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.27-23.46.32:786][763]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteMatrix/Maps/TutorialMap' took 0.079
+[2023.01.27-23.46.32:789][763]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Player] ([2] browsable assets)...
+[2023.01.27-23.46.32:789][763]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Player]
+[2023.01.27-23.46.34:501][763]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto6
+[2023.01.27-23.46.34:501][763]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Player_Auto68E5DF5D64BF202E7C6DD38B44550E1E8.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto6.uasset'
+[2023.01.27-23.46.34:521][763]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Bullet] ([2] browsable assets)...
+[2023.01.27-23.46.34:534][763]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet]
+[2023.01.27-23.46.34:534][763]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Bullet]
+[2023.01.27-23.46.34:992][763]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Bullet_Auto6
+[2023.01.27-23.46.34:992][763]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Bullet_Auto6AC6666584C7659D54BCB68AE9E6A07B5.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Bullet_Auto6.uasset'
+[2023.01.27-23.46.35:009][763]LogFileHelpers: Auto-saving content packages took 2.223
+[2023.01.27-23.46.35:043][764]LogAutomationController: Ignoring very large delta of 2.40 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.27-23.51.10:569][273]BlueprintLog: New page: Compile BP_Bullet
+[2023.01.27-23.51.10:680][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.27-23.51.14:535][634]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.01.27-23.51.14:577][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.27-23.51.14:577][634]PIE: New page: PIE session: TutorialMap (Jan 27, 2023, 11:51:14 AM)
+[2023.01.27-23.51.14:578][634]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.51.14:582][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003953s)
+[2023.01.27-23.51.14:582][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003989s)
+[2023.01.27-23.51.14:582][634]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.51.14:582][634]LogAIModule: Creating AISystem for world TutorialMap
+[2023.01.27-23.51.14:583][634]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2023.01.27-23.51.14:655][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.27-23.51.14:659][634]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.01.27-23.51.14:659][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.27-23.51.14:659][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.27-23.51.14:659][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.27-23.51.14:659][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.27-23.51.14:659][634]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.27-23.51.14:659][634]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.27-23.51.14:659][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.27-23.51.14:659][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.27-23.51.14:660][634]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.27-23.51.14:660][634]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.27-23.51.14:660][634]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.27-23.51.14:662][634]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.27-23.51.14:775][634]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.01.27-23.51.14:775][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.27-23.51.14:775][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.27-23.51.14:775][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.27-23.51.14:776][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.01.27-23.51.14:776][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.01.27-23.51.14:778][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.01.27-23.51.14:778][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.01.27-23.51.14:778][634]LogInit: FAudioDevice initialized.
+[2023.01.27-23.51.14:778][634]LogAudio: Display: Audio Device (ID: 18) registered with world 'TutorialMap'.
+[2023.01.27-23.51.14:796][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.51.14:796][634]LogLoad: Game class is 'GM_Tutorial_C'
+[2023.01.27-23.51.14:797][634]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2023.01.27-17.51.14
+[2023.01.27-23.51.14:797][634]LogWorld: Bringing up level for play took: 0.000656
+[2023.01.27-23.51.14:800][634]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.01.27-23.51.14:809][634]PIE: Server logged in
+[2023.01.27-23.51.14:812][634]PIE: Play in editor total start time 0.235 seconds.
+[2023.01.27-23.51.14:832][634]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.01.27-23.52.18:098][ 21]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.01.27-23.52.18:098][ 21]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.01.27-23.52.19:783][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.52.19:783][137]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.52.19:784][137]LogSlate: Window 'InfiniteMatrix Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.01.27-23.52.19:789][137]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.52.19:790][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.52.19:793][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.27-23.52.19:799][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.52.19:871][137]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.27-23.52.19:872][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.01.27-23.52.19:873][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.01.27-23.52.19:883][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.01.27-23.52.19:960][138]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.01.27-23.52.30:113][143]LogAssetEditorSubsystem: Opening Asset editor for Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2023.01.27-23.52.30:116][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.52.30:390][143]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.52.30:390][143]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.30:390][143]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.52.30:397][143]LogViewport: Scene viewport resized to 325x384, mode Windowed.
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: ================================================
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Total job queries 227, among them cache hits 40 (17.62%)
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Tracking 187 distinct input hashes that result in 102 distinct outputs (54.55%)
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: RAM used: 0.45 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.03%
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Shaders Compiled: 187
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Jobs assigned 187, completed 187 (100.00%)
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Average time worker was idle: 79.99 s
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Time job spent in pending queue: average 6.60 s, longest 25.22 s
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Job execution time: average 1.09 s, max 12.44 s
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Job life time (pending + execution): average 7.69 s, max 26.03
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 57.92 s
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Jobs were issued in 187 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Average processing rate: 3.23 jobs/sec
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Total thread time: 124.90 s
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Total thread preprocess time: 10.26 s
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Percentage time preprocessing: 8.21%
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Effective parallelization: 2.16 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 0.92 sec, max 0.99 sec, min 0.84 sec)
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 0.90 sec, max 0.91 sec, min 0.89 sec)
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.89 sec, max 0.93 sec, min 0.86 sec)
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.85 sec, max 0.88 sec, min 0.83 sec)
+[2023.01.27-23.52.30:428][144]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 0.84 sec, max 0.87 sec, min 0.83 sec)
+[2023.01.27-23.52.30:429][144]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.27-23.52.30:429][144]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.54% of total time (compiled   32 times, average 0.80 sec, max 1.01 sec, min 0.61 sec)
+[2023.01.27-23.52.30:429][144]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.42% of total time (compiled   32 times, average 0.80 sec, max 0.94 sec, min 0.61 sec)
+[2023.01.27-23.52.30:429][144]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.54% of total time (compiled   23 times, average 0.57 sec, max 0.66 sec, min 0.48 sec)
+[2023.01.27-23.52.30:429][144]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.57% of total time (compiled   23 times, average 0.36 sec, max 0.43 sec, min 0.29 sec)
+[2023.01.27-23.52.30:429][144]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 2.21% of total time (compiled    3 times, average 0.92 sec, max 0.99 sec, min 0.84 sec)
+[2023.01.27-23.52.30:429][144]LogShaderCompilers: Display: ================================================
+[2023.01.27-23.52.30:449][145]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.52.30:449][145]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.52.30:449][145]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.52.30:449][145]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.30:449][145]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.52.33:935][535]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.27-23.52.36:684][842]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.52.36:684][842]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.36:684][842]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.52.36:712][844]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.52.36:712][844]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.52.36:712][844]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.52.36:712][844]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.36:712][844]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.52.39:587][164]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.27-23.52.39:595][164]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.52.39:595][164]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.39:595][164]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.52.39:622][166]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.52.39:623][166]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.52.39:623][166]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.52.39:623][166]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.39:623][166]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.52.44:110][675]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.52.44:110][675]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.44:110][675]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.52.44:138][677]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.52.44:138][677]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.52.44:138][677]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.52.44:138][677]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.44:138][677]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.52.45:749][862]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.52.45:749][862]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.45:749][862]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.52.45:777][864]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.52.45:777][864]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.52.45:777][864]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.52.45:777][864]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.45:777][864]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.52.46:841][982]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.52.46:841][982]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.46:841][982]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.52.46:868][984]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.52.46:868][984]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.52.46:868][984]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.52.46:868][984]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.46:868][984]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.52.48:001][106]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.27-23.52.48:008][106]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.27-23.52.48:008][106]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.48:008][106]MaterialEditorStats: Shader Count: 0
+[2023.01.27-23.52.48:035][108]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.01.27-23.52.48:035][108]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.01.27-23.52.48:035][108]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.27-23.52.48:035][108]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.27-23.52.48:035][108]MaterialEditorStats: Shader Count: 4
+[2023.01.27-23.52.53:111][661]BlueprintLog: New page: Compile BP_Bullet
+[2023.01.27-23.52.53:210][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.27-23.52.54:911][807]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.01.27-23.52.54:953][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.27-23.52.54:953][807]PIE: New page: PIE session: TutorialMap (Jan 27, 2023, 11:52:54 AM)
+[2023.01.27-23.52.54:953][807]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.52.54:957][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003706s)
+[2023.01.27-23.52.54:957][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003737s)
+[2023.01.27-23.52.54:957][807]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.27-23.52.54:958][807]LogAIModule: Creating AISystem for world TutorialMap
+[2023.01.27-23.52.54:958][807]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2023.01.27-23.52.55:030][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.01.27-23.52.55:034][807]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.01.27-23.52.55:034][807]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.27-23.52.55:034][807]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.27-23.52.55:034][807]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.27-23.52.55:034][807]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.27-23.52.55:034][807]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.27-23.52.55:034][807]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.27-23.52.55:034][807]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.27-23.52.55:034][807]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.27-23.52.55:034][807]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.27-23.52.55:034][807]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.27-23.52.55:035][807]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.27-23.52.55:037][807]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.27-23.52.55:167][807]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.01.27-23.52.55:167][807]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.27-23.52.55:167][807]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.27-23.52.55:167][807]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.27-23.52.55:168][807]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.01.27-23.52.55:168][807]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.01.27-23.52.55:170][807]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.01.27-23.52.55:170][807]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.01.27-23.52.55:170][807]LogInit: FAudioDevice initialized.
+[2023.01.27-23.52.55:170][807]LogAudio: Display: Audio Device (ID: 19) registered with world 'TutorialMap'.
+[2023.01.27-23.52.55:196][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.52.55:196][807]LogLoad: Game class is 'GM_Tutorial_C'
+[2023.01.27-23.52.55:197][807]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2023.01.27-17.52.55
+[2023.01.27-23.52.55:197][807]LogWorld: Bringing up level for play took: 0.000628
+[2023.01.27-23.52.55:200][807]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.01.27-23.52.55:210][807]PIE: Server logged in
+[2023.01.27-23.52.55:213][807]PIE: Play in editor total start time 0.26 seconds.
+[2023.01.27-23.52.55:232][807]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.01.27-23.53.02:383][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.27-23.53.02:383][283]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.27-23.53.02:384][283]LogSlate: Window 'InfiniteMatrix Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.01.27-23.53.02:388][283]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.27-23.53.02:389][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.53.02:391][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.27-23.53.02:398][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.27-23.53.02:468][283]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.27-23.53.02:468][283]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.01.27-23.53.02:470][283]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.01.27-23.53.02:479][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.27-23.53.02:540][284]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.01.27-23.57.49:130][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.01.27-23.57.49:137][731]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteMatrix/Maps/TutorialMap' took 0.090
+[2023.01.27-23.57.49:140][731]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Player] ([2] browsable assets)...
+[2023.01.27-23.57.49:140][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Player]
+[2023.01.27-23.57.50:886][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto7
+[2023.01.27-23.57.50:902][731]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Player_Auto711215AE443FA95DD1910E0B501E3B7CE.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Player_Auto7.uasset'
+[2023.01.27-23.57.50:941][731]LogFileHelpers: Auto-saving content packages took 1.805
+[2023.01.27-23.57.50:978][732]LogAutomationController: Ignoring very large delta of 2.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.28-00.18.03:604][341]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_Enemy.BP_Enemy
+[2023.01.28-00.18.03:604][341]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.28-00.18.04:243][341]LogViewport: Scene viewport resized to 988x747, mode Windowed.
+[2023.01.28-00.18.16:152][593]BlueprintLog: New page: Compile BP_Enemy
+[2023.01.28-00.18.16:278][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.01.28-00.20.00:584][418]BlueprintLog: New page: Compile BP_Enemy
+[2023.01.28-00.20.00:704][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.28-00.20.28:921][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.28-00.20.28:927][731]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteMatrix/Maps/TutorialMap' took 0.086
+[2023.01.28-00.20.28:927][731]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/InfiniteMatrix/Blueprints/BP_Bullet] ([2] browsable assets)...
+[2023.01.28-00.20.28:937][731]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet]
+[2023.01.28-00.20.28:937][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteMatrix/Blueprints/BP_Bullet]
+[2023.01.28-00.20.29:391][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Bullet_Auto8
+[2023.01.28-00.20.29:392][731]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Bullet_Auto88721DD554BF98D2AD9D642834143C94A.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/Autosaves/Game/InfiniteMatrix/Blueprints/BP_Bullet_Auto8.uasset'
+[2023.01.28-00.20.29:403][731]LogFileHelpers: Auto-saving content packages took 0.476
+[2023.01.28-00.23.17:173][ 93]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.28-00.23.17:174][ 93]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.28-00.23.17:174][ 93]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.28-00.23.29:205][487]BlueprintLog: New page: Compile BP_Tunnel
+[2023.01.28-00.23.29:357][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.01.28-00.24.29:661][353]LogDerivedDataCache: C:/Users/archnas2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.120 and deleted 0 files with total size 0 MiB. Scanned 541 files in 540 folders with total size 149 MiB.
+[2023.01.28-00.24.43:868][821]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.01.28-00.25.10:537][579]BlueprintLog: New page: Compile BP_Tunnel
+[2023.01.28-00.25.10:687][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.01.28-00.26.42:064][266]BlueprintLog: New page: Compile BP_TunnelSpawner
+[2023.01.28-00.26.42:191][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.01.28-00.27.08:838][253]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.28-00.27.08:838][253]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.28-00.27.08:838][253]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.28-00.28.24:391][542]BlueprintLog: New page: Compile BP_TunnelSpawner
+[2023.01.28-00.28.24:521][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.28-00.28.26:108][714]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.01.28-00.28.26:171][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.28-00.28.26:171][714]PIE: New page: PIE session: TutorialMap (Jan 27, 2023, 12:28:26 PM)
+[2023.01.28-00.28.26:171][714]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.28-00.28.26:175][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003767s)
+[2023.01.28-00.28.26:175][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003802s)
+[2023.01.28-00.28.26:175][714]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.28-00.28.26:175][714]LogAIModule: Creating AISystem for world TutorialMap
+[2023.01.28-00.28.26:176][714]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2023.01.28-00.28.26:256][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.28-00.28.26:260][714]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.01.28-00.28.26:260][714]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.28-00.28.26:260][714]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.28-00.28.26:260][714]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.28-00.28.26:260][714]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.28-00.28.26:260][714]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.28-00.28.26:260][714]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.28-00.28.26:260][714]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.28-00.28.26:260][714]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.28-00.28.26:261][714]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.28-00.28.26:261][714]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.28-00.28.26:261][714]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.28-00.28.26:263][714]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.28-00.28.26:369][714]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.01.28-00.28.26:369][714]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.28-00.28.26:369][714]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.28-00.28.26:369][714]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.28-00.28.26:370][714]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.01.28-00.28.26:370][714]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.01.28-00.28.26:372][714]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.01.28-00.28.26:372][714]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.01.28-00.28.26:372][714]LogInit: FAudioDevice initialized.
+[2023.01.28-00.28.26:372][714]LogAudio: Display: Audio Device (ID: 20) registered with world 'TutorialMap'.
+[2023.01.28-00.28.26:401][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.28-00.28.26:402][714]LogLoad: Game class is 'GM_Tutorial_C'
+[2023.01.28-00.28.26:402][714]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2023.01.27-18.28.26
+[2023.01.28-00.28.26:402][714]LogWorld: Bringing up level for play took: 0.000539
+[2023.01.28-00.28.26:405][714]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.01.28-00.28.26:415][714]PIE: Server logged in
+[2023.01.28-00.28.26:418][714]PIE: Play in editor total start time 0.247 seconds.
+[2023.01.28-00.28.26:434][714]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.01.28-00.29.21:323][440]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.01.28-00.29.21:323][440]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.01.28-00.29.23:564][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.28-00.29.23:564][631]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2023.01.28-00.29.23:565][631]LogSlate: Window 'InfiniteMatrix Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.01.28-00.29.23:569][631]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.28-00.29.23:570][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.28-00.29.23:572][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.28-00.29.23:579][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.28-00.29.23:661][631]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.28-00.29.23:661][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.01.28-00.29.23:663][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.01.28-00.29.23:674][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.01.28-00.29.23:766][632]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.01.28-00.29.40:663][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.28-00.29.40:700][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.28-00.29.40:727][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Maps/TutorialMap" FILE="U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Maps/TutorialMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.28-00.29.40:806][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.01.28-00.29.42:113][619]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Maps/TutorialMap
+[2023.01.28-00.29.42:128][619]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/TutorialMap10C73CC4420FF3A0A96493A4217B6B9E.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Maps/TutorialMap.umap'
+[2023.01.28-00.29.42:261][619]LogFileHelpers: Saving map 'TutorialMap' took 1.535
+[2023.01.28-00.29.42:265][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner" FILE="U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset" SILENT=true
+[2023.01.28-00.29.43:354][619]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner
+[2023.01.28-00.29.43:369][619]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_TunnelSpawnerDB297CAE4FA1982B8C84F59F51E5C822.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2023.01.28-00.29.43:474][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2023.01.28-00.29.45:340][619]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_Tunnel
+[2023.01.28-00.29.45:354][619]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Tunnel14985BE74673517A0089AEBD74CFEC4C.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2023.01.28-00.29.45:394][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Player" FILE="U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Player.uasset" SILENT=true
+[2023.01.28-00.29.47:071][619]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_Player
+[2023.01.28-00.29.47:086][619]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_PlayerD751266145BCDA29A0EEB29CDD83C60E.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Player.uasset'
+[2023.01.28-00.29.47:134][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/BasicShapeMaterial" FILE="../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" SILENT=true
+[2023.01.28-00.29.47:252][619]LogSavePackage: Moving output files for package: /Engine/BasicShapes/BasicShapeMaterial
+[2023.01.28-00.29.47:278][619]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BasicShapeMaterialC668984D4292B3BBF454658E26E3BE40.tmp' to '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'
+[2023.01.28-00.29.47:321][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Bullet" FILE="U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Bullet.uasset" SILENT=true
+[2023.01.28-00.29.47:775][619]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_Bullet
+[2023.01.28-00.29.47:790][619]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Bullet2709408248652E072C536E8E6303E619.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Bullet.uasset'
+[2023.01.28-00.29.47:848][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Enemy" FILE="U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Enemy.uasset" SILENT=true
+[2023.01.28-00.29.48:311][619]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_Enemy
+[2023.01.28-00.29.48:311][619]LogSavePackage: Moving 'U:/CS415/InfiniteMatrixStarter 5.1/Saved/BP_Enemy5907F8E1464BB8119B878C93B1AF4939.tmp' to 'U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Enemy.uasset'
+[2023.01.28-00.29.48:335][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.63 sec (total: 13.7 sec)
+[2023.01.28-00.29.48:346][619]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.28-00.29.48:347][619]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player
+[2023.01.28-00.29.48:347][619]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2023.01.28-00.29.48:347][619]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2023.01.28-00.29.48:347][619]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2023.01.28-00.29.48:347][619]LogContentValidation: Display: Validating /Script/Engine.World /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap
+[2023.01.28-00.29.48:347][619]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap_BuiltData
+[2023.01.28-00.29.48:347][619]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_Enemy.BP_Enemy
+[2023.01.28-00.29.48:347][619]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_Bullet.BP_Bullet
+[2023.01.28-00.29.48:355][620]LogAutomationController: Ignoring very large delta of 7.78 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
