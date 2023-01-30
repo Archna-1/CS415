@@ -15,6 +15,12 @@
 				"U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Enemy.uasset",
 				"U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_CameraShake.uasset",
 				"C:/Program Files/Epic Games/UE_5.1/Engine/Content/EngineDebugMaterials/TerrainCollisionMaterial.uasset",
+				"C:/Users/archnas2/Desktop/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Player.uasset",
+				"C:/Users/archnas2/Desktop/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset",
+				"C:/Users/archnas2/Desktop/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Maps/TutorialMap.umap",
+				"C:/Users/archnas2/Desktop/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset",
+				"U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Meshes/Love.uasset",
+				"U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Meshes/Material__30.uasset",
 				"U:/CS415/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Materials/NewPhysicalMaterial.uasset",
 				"U:/CS415/InfiniteMatrixStarter 5.1/Content/Kraken/Textures/Tex_KRAKEN_BODY_AO.uasset",
 				"U:/CS415/InfiniteMatrixStarter 5.1/Content/Kraken/Textures/Tex_KRAKEN_BODY_BaseColor.uasset",
@@ -49,11 +55,7 @@
 				"U:/CS415/InfiniteMatrixStarter 5.1/Content/Kraken/Animations/KRAKEN_turn45RightSmashAttack_RM.uasset",
 				"U:/CS415/InfiniteMatrixStarter 5.1/Content/Kraken/Animations/KRAKEN_turn45Right_RM.uasset",
 				"U:/CS415/InfiniteMatrixStarter 5.1/Content/Kraken/Animations/KRAKEN_walk.uasset",
-				"U:/CS415/InfiniteMatrixStarter 5.1/Content/Kraken/Animations/KRAKEN_walk_RM.uasset",
-				"C:/Users/archnas2/Desktop/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Player.uasset",
-				"C:/Users/archnas2/Desktop/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset",
-				"C:/Users/archnas2/Desktop/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Maps/TutorialMap.umap",
-				"C:/Users/archnas2/Desktop/InfiniteMatrixStarter 5.1/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset"
+				"U:/CS415/InfiniteMatrixStarter 5.1/Content/Kraken/Animations/KRAKEN_walk_RM.uasset"
 			]
 		}
 	]
